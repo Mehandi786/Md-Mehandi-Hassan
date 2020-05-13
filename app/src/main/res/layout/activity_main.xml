@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4CC5F"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CI"
+        android:text="INDIA"
+        android:textSize="30dp"
+        android:background="#98E448"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:onClick="India"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staytext"
+        android:text="STAY HOME,STAY SAFE."
+        android:layout_below="@id/CI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:textStyle="italic"
+        android:textColor="#0D28D1"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/staytext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="WORLD"
+        android:textSize="40dp"
+        android:padding="30dp"
+        android:onClick="World"
+        android:id="@+id/CW"
+        android:background="#FB8C00"/>
+
+
+
+
+</RelativeLayout>
